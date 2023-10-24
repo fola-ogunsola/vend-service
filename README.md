@@ -114,8 +114,6 @@ Npm scripts basically allow us to call (and chain) terminal commands via npm.
 
 ## Postman API Documentation
 
-https://documenter.getpostman.com/view/9438998/2s9YC8uVmW
-
 ___
 
 ## Technologies
@@ -126,13 +124,7 @@ ___
 - Chai
 - Postman
 - PostgreSQL
-- Google Firestore
-- Google Firebase
 
 ---
 
 ## Copyright
-
-Copyright (c) 2023 Enyata
-
----
