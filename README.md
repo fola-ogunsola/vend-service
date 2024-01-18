@@ -45,7 +45,7 @@ For development, you will only need Node.js (version 16 and above) and a node gl
 ## BAOBAB Project Installation
 
     $ git clone https://github.com/fola-ogunsola/vend-service.git
-    $ cd node-template
+    $ cd vend-service
     $ npm install
 
 ---
