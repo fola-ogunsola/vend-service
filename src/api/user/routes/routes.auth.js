@@ -1,13 +1,15 @@
 import { Router } from 'express';
-import ApiResponse from '../../../lib/http/lib.http.responses';
+import Model from '../middlewares/middlewares.model';
+import Schema  from '../../../lib/schema/lib.schema.vend';
+import * as AuthMiddleware from '../middlewares/index';
 
 const router = Router();
 
-router.get(
-  // eslint-disable-next-line no-unused-vars
-  '/', (req, res) => {
-    return ApiResponse.success(res, 'Auth Route is reachable', 200);
-  }
+router.post('/service', 
+  Model(Schema.processVending, 'payload'),
+  AuthMiddleware.checkSecurityCode,
+  AuthMiddleware.checkUniqueRefNum,
+  AuthMiddleware.validateVendRequest
 );
 
 export default router;

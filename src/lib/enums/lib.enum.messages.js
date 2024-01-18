@@ -1,6 +1,20 @@
-export const ERROR_STATUS = 'Error';
+// export const ERROR_STATUS = 'Error';
+// export const SUCCESS_STATUS = 'Success';
+// export const SERVER_ERROR = 'Server Error';
+// export const WELCOME = 'Project APIs welcome you';
+// export const DEAD_END_MESSAGE = 'Resource Not Found';
+// export const SOMETHING_BROKE_MESSAGE = 'Oooops! Something broke, kindly try later';
+
 export const SUCCESS_STATUS = 'Success';
 export const SERVER_ERROR = 'Server Error';
-export const WELCOME = 'Project APIs welcome you';
+export const ERROR_STATUS = 'Error';
+export const NO_TOKEN = 'Please provide a token';
+export const INVALID_TOKEN = 'Invalid/Expired Token';
+export const SESSION_EXPIRED = 'Session expired';
+export const DUPLICATE = 'Duplicate transaction';
+export const INVALID_TARIFF_ID = 'Invalid Tariff Type ID';
+export const INVALID_CREDENTIAL = 'Invalid Credentials';
+export const INVALID_AMOUNT = 'Amount less than minimum amount(50)';
 export const DEAD_END_MESSAGE = 'Resource Not Found';
 export const SOMETHING_BROKE_MESSAGE = 'Oooops! Something broke, kindly try later';
+export const INVALID_ACCESS_KEY_CREDENTIALS = 'Invalid login credentials';
